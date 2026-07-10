@@ -1,0 +1,6 @@
+{
+  "name": "HOME-MAID",
+  "description": "A modern, reliable home care services platform offering premium cleaning, cooking, child care, elder care, and domestic assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

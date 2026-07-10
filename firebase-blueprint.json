@@ -1,0 +1,38 @@
+{
+  "collections": {
+    "users": {
+      "schema": {
+        "properties": {
+          "uid": { "type": "string" },
+          "name": { "type": "string" },
+          "email": { "type": "string" },
+          "phone": { "type": "string" },
+          "address": { "type": "string" },
+          "createdAt": { "type": "string" }
+        },
+        "required": ["uid", "email", "name", "phone", "address", "createdAt"]
+      }
+    },
+    "bookings": {
+      "schema": {
+        "properties": {
+          "userId": { "type": "string" },
+          "customerName": { "type": "string" },
+          "phone": { "type": "string" },
+          "email": { "type": "string" },
+          "address": { "type": "string" },
+          "serviceType": { "type": "string" },
+          "preferredDate": { "type": "string" },
+          "preferredTime": { "type": "string" },
+          "duration": { "type": "number" },
+          "specialInstructions": { "type": "string" },
+          "bookingCode": { "type": "string" },
+          "status": { "type": "string" },
+          "totalAmount": { "type": "number" },
+          "createdAt": { "type": "string" }
+        },
+        "required": ["userId", "customerName", "phone", "email", "address", "serviceType", "preferredDate", "preferredTime", "duration", "bookingCode", "status", "totalAmount", "createdAt"]
+      }
+    }
+  }
+}
